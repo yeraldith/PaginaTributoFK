@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+body{
+    display: flex;
+    flex-flow: column;
+    font-size: medium;
+}
+/* diseño de header*/
+#title{
+    margin: 5px 50px 0 0;
+    float: right;
+    font-family: 'Acme';
+    font-size: 45px;
+    color: black;
+}
+.menu li {
+    list-style: none;
+    text-align: center;
+    display: inline;
+    font-size: 25px;
+    margin-right: 12px;
+}
+.menu a:hover{
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu{
+    height: 50px;
+    padding: 10px;
+    background-color: mediumaquamarine;
+}
+#title:hover{
+    color: white;
+}
+/*inicio section*/
+
+.img-div img {
+    border-radius: 15%;
+}
+.container{
+    display: flex;
+    margin-top: 20px;
+}
+.img-div{
+    width: 400px;
+    height: 380px;
+    text-align: center;
+}
+.article{
+    width: 600px;
+    height: 380px;
+    margin-top: 30px;
+    justify-content: right;
+    text-align: justify;
+}
+h2{
+    font-family: 'Luckiest Guy';
+    color: rgb(8, 40, 44);
+}
+/*estilo de tabla*/
+.table{
+    text-align: center;
+}
+
+.table1{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.table1 td, .table1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+.table1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(104, 91, 214);
+  color: white;
+}
+#footerpag{
+    text-align: center;
+}
